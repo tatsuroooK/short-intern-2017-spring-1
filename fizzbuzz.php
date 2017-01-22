@@ -7,17 +7,11 @@
 for ($i=1; $i <=100 ; $i++) {
     if ($i % 15 === 0) {
         $result = "FizzBuzz";
-    }
-
-    elseif($i % 3 === 0) {
+    } elseif($i % 3 === 0) {
         $result = "Fizz";
-    }
-
-    elseif($i % 5 === 0) {
+    } elseif($i % 5 === 0) {
         $result = "Buzz";
-    }
-
-    else {
+    } else {
         $result = $i;
     }
 
